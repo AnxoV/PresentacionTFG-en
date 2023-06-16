@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/tfg.css">
+        <link rel="stylesheet" href="dist/tfg.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+                    <textarea data-template>
+
+                        <img src="assets/logo.svg" height="100px">
+
+                        ```php
+
+                            <?php
+                                namespace daw;
+
+                                class Presentation {
+                                    public function __construct() {
+                                        $this->host = "Anxo Vilas Miranda";
+                                    }
+                                }
+
+                                new Presentation();
+                            ?>
+
+                        
+                        ```
+                    </textarea>
+                </section>
+                <section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            #### 🖥️ <u>The application</u>
+
+                            ![](assets/web-app.png)
+                        </textarea>
+                    </section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            #### 💡 <u>The solution</u>
+
+                            ![](assets/problem-analysis.webp)
+                        </textarea>
+                    </section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            #### 💡 <u>The solution</u>
+                            
+                            ![](assets/excel.png)
+                        </textarea>
+                    </section>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        #### ⚙️ <u>Technologies</u>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Frontend</th>
+                                    <th>Backend</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="assets/html-css-js.png" height="100px">
+                                    </td>
+                                    <td>
+                                        <img src="assets/php-logo.png" height="100px">
+                                        <img src="assets/mysql-logo.jpg" height="100px">
+                                        <br>
+                                        <CENTER>
+                                            <img src="assets/phpmailer.png" height="100px">
+                                        </CENTER>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </textarea>
+                </section>
+                <section>
+                    <section data-markdown>
+                        <textarea data-template>
+                            #### 📊 <u>Bussiness plan</u>
+                            
+                            ![](assets/bussiness.png)
+                        </textarea>
+                    </section>
+
+                    <section data-markdown>
+                        <textarea data-template>
+                            #### 📊 <u>Freelance</u>
+                            
+                            <img src="assets/autonomo.jpg" height="500px">
+                        </textarea>
+                    </section>
+
+                    <section data-markdown>
+                        <textarea data-template>
+                            #### 📊 <u>Financing</u>
+                            
+                            ![](assets/financiacion.webp)
+                        </textarea>
+                    </section>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        #### 🎥 <u>Demo</u>
+                        
+                        <video controls>
+                            <source src="assets/walkthrough.mp4">
+                        </video>
+                    </textarea>
+                </section>
+                
+
+                <section data-markdown>
+                    <textarea data-template>
+                        #### 💬 <u>Summary and future lines</u>
+                        
+                        <img src="assets/conclusion.jpg" height="500px">
+                    </textarea>
+                </section>
+
+                <section data-markdown>
+                    <textarea data-template>
+                        #### Thank you for your attention
+                    </textarea>
+                </section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
